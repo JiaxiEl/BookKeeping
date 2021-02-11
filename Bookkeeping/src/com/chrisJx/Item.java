@@ -1,6 +1,8 @@
+package com.chrisJx;
+
 import java.util.Date;
 
-public class BookKeeping {
+public class Item {
     private String itemName;
     private float cost;
     private Date date;
@@ -17,9 +19,7 @@ public class BookKeeping {
     public float getCost(){
         return this.cost;
     }
-    public void setDate(Date date){
-        this.date = date;
-    }
+    public void setDate(Date date){this.date = date;}
     public Date getDate(){
         return this.date;
     }
